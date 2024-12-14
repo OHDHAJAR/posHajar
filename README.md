@@ -51,7 +51,7 @@ Placer le projet dans le dossier `htdocs` de votre serveur local :
 
 Configurer le fichier `application/config/database.php` avec vos informations de connexion à la base de données :
 
-
+```php
 $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'root',       // Modifier si différent
@@ -73,7 +73,7 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
-
+```
 ---
 
 ## **Lancement de l'Application**
