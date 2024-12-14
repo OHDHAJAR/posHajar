@@ -76,10 +76,19 @@ $db['default'] = array(
 ```
 ---
 
-markdown
-Copy code
-### 4. Exécutez la commande `composer install`
+### 2. Exécutez la commande `composer install`
 
+Pour régénérer le répertoire `vendor` et restaurer les dépendances manquantes, procédez comme suit :
+
+1. Ouvrez un terminal ou une invite de commande.  
+2. Naviguez dans le répertoire de votre projet :  
+   ```bash
+   cd C:\xampp\htdocs\posHajar
+    ```
+2.Exécutez la commande suivante pour installer les dépendances :
+```bash
+composer install
+```
 ### 5. Lancement de l'Application
 
 1. Démarrez le serveur Apache via XAMPP.
