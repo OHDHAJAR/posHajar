@@ -31,3 +31,55 @@ Assurez-vous d'avoir installé les logiciels suivants :
 
    ```sql
    CREATE DATABASE poshajar;
+   # Déploiement de l'Application POS
+
+## 1. Importation du Fichier SQL
+
+Importer le fichier `poshajar.sql` pour créer les tables nécessaires à la base de données.
+
+---
+
+## 2. Placement du Projet
+
+Placer le projet dans le dossier `htdocs` de votre serveur local :
+
+
+
+---
+
+## 3. Configuration de la Base de Données
+
+Configurer le fichier `application/config/database.php` avec vos informations de connexion à la base de données :
+
+```php
+$db['default'] = array(
+    'hostname' => 'localhost',
+    'username' => 'root',       // Modifier si différent
+    'password' => '',           // Modifier si différent
+    'database' => 'poshajar',   // Nom de la base de données
+    'dbdriver' => 'mysqli',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'production'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);
+## 4. Lancement de l'Application
+
+1. Démarrez le serveur Apache via XAMPP.  
+2. Accédez à l'application à l'adresse suivante :
+
+   **[http://localhost/posHajar](http://localhost/posHajar)**
+
+## 🔑 Informations de Connexion
+
+- **Nom d'utilisateur** : `admin`  
+- **Mot de passe** : `admin`
