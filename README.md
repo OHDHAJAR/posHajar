@@ -23,7 +23,7 @@ Cette application de point de vente (POS) a été développée avec **CodeIgnite
 Assurez-vous d'avoir installé les logiciels suivants :
 
 - **XAMPP** (ou tout autre serveur local avec Apache et MySQL)  
-- **PHP 8.1.12** (ou une version compatible avec CodeIgniter)  
+- **PHP 8.1.12**  
 
 ### **2. Configuration de la Base de Données**
 
