@@ -51,7 +51,7 @@ Placer le projet dans le dossier `htdocs` de votre serveur local :
 
 Configurer le fichier `application/config/database.php` avec vos informations de connexion à la base de données :
 
-```php
+
 $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'root',       // Modifier si différent
@@ -72,14 +72,18 @@ $db['default'] = array(
     'failover' => array(),
     'save_queries' => TRUE
 );
-## 4. Lancement de l'Application
 
-1. Démarrez le serveur Apache via XAMPP.  
-2. Accédez à l'application à l'adresse suivante :
 
-   **[http://localhost/posHajar](http://localhost/posHajar)**
+---
 
-## 🔑 Informations de Connexion
+## **Lancement de l'Application**
 
-- **Nom d'utilisateur** : `admin`  
+1. Démarrez le serveur Apache via XAMPP.
+2. Accédez à l'application à l'adresse suivante : http://localhost/posHajar
+
+---
+
+## 🔑 **Informations de Connexion**
+
+- **Nom d'utilisateur** : `admin`
 - **Mot de passe** : `admin`
