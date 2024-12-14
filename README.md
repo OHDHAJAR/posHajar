@@ -76,7 +76,11 @@ $db['default'] = array(
 ```
 ---
 
-## **Lancement de l'Application**
+markdown
+Copy code
+### 4. Exécutez la commande `composer install`
+
+### 5. Lancement de l'Application
 
 1. Démarrez le serveur Apache via XAMPP.
 2. Accédez à l'application à l'adresse suivante : http://localhost/posHajar
@@ -84,6 +88,7 @@ $db['default'] = array(
 ---
 
 ## 🔑 **Informations de Connexion**
+
 
 - **Nom d'utilisateur** : `admin`
 - **Mot de passe** : `admin`
